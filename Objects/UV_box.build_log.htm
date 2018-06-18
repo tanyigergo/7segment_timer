@@ -1,0 +1,160 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a a, a, LIC=HF8SB-2W561-ZCVJY-IGFYS-Y5SIS-XJTYM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      UL2CM3.DLL V1.159.7.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Gergo\Documents\GitHub\tanyigergo.github.io\7segment_timer\UV_box.uvprojx
+Project File Date:  06/18/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling Delay.c...
+compiling gpio.c...
+gpio.h(29): warning:  #1295-D: Deprecated declaration init_gpio - give arg types
+  void init_gpio();
+gpio.h(35): warning:  #1295-D: Deprecated declaration ledOn - give arg types
+  void ledOn();
+gpio.h(36): warning:  #1295-D: Deprecated declaration ledOff - give arg types
+  void ledOff();
+gpio.h(37): warning:  #1295-D: Deprecated declaration toggleLed - give arg types
+  void toggleLed();
+gpio.h(39): warning:  #1295-D: Deprecated declaration readButton1 - give arg types
+  uint32_t readButton1();
+gpio.h(40): warning:  #1295-D: Deprecated declaration readButton2 - give arg types
+  uint32_t readButton2();
+gpio.h(41): warning:  #1295-D: Deprecated declaration readButton3 - give arg types
+  uint32_t readButton3();
+gpio.h(42): warning:  #1295-D: Deprecated declaration readButtonStart - give arg types
+  uint32_t readButtonStart();
+gpio.c: 8 warnings, 0 errors
+compiling timer.c...
+timer.h(4): warning:  #1295-D: Deprecated declaration timer_init - give arg types
+  void timer_init();
+timer.h(6): warning:  #1295-D: Deprecated declaration timer_start - give arg types
+  void timer_start();
+timer.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif //timer.h
+timer.c(24): warning:  #1-D: last line of file ends without a newline
+  }
+timer.c: 4 warnings, 0 errors
+compiling main.c...
+gpio.h(29): warning:  #1295-D: Deprecated declaration init_gpio - give arg types
+  void init_gpio();
+gpio.h(35): warning:  #1295-D: Deprecated declaration ledOn - give arg types
+  void ledOn();
+gpio.h(36): warning:  #1295-D: Deprecated declaration ledOff - give arg types
+  void ledOff();
+gpio.h(37): warning:  #1295-D: Deprecated declaration toggleLed - give arg types
+  void toggleLed();
+gpio.h(39): warning:  #1295-D: Deprecated declaration readButton1 - give arg types
+  uint32_t readButton1();
+gpio.h(40): warning:  #1295-D: Deprecated declaration readButton2 - give arg types
+  uint32_t readButton2();
+gpio.h(41): warning:  #1295-D: Deprecated declaration readButton3 - give arg types
+  uint32_t readButton3();
+gpio.h(42): warning:  #1295-D: Deprecated declaration readButtonStart - give arg types
+  uint32_t readButtonStart();
+int.h(4): warning:  #1295-D: Deprecated declaration interruptInit - give arg types
+  void interruptInit();
+exti.h(4): warning:  #1295-D: Deprecated declaration exti_init - give arg types
+  void exti_init();
+exti.h(5): warning:  #1-D: last line of file ends without a newline
+  #endif
+timer.h(4): warning:  #1295-D: Deprecated declaration timer_init - give arg types
+  void timer_init();
+timer.h(6): warning:  #1295-D: Deprecated declaration timer_start - give arg types
+  void timer_start();
+timer.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif //timer.h
+main.c(112): warning:  #111-D: statement is unreachable
+  	return 0;
+main.c: 15 warnings, 0 errors
+compiling int.c...
+int.h(4): warning:  #1295-D: Deprecated declaration interruptInit - give arg types
+  void interruptInit();
+int.c(22): warning:  #1-D: last line of file ends without a newline
+  }
+int.c: 2 warnings, 0 errors
+assembling startup_stm32f10x_md.s...
+compiling exti.c...
+exti.h(4): warning:  #1295-D: Deprecated declaration exti_init - give arg types
+  void exti_init();
+exti.h(5): warning:  #1-D: last line of file ends without a newline
+  #endif
+exti.c(19): warning:  #1-D: last line of file ends without a newline
+  }
+exti.c: 3 warnings, 0 errors
+compiling 7_segment.c...
+gpio.h(29): warning:  #1295-D: Deprecated declaration init_gpio - give arg types
+  void init_gpio();
+gpio.h(35): warning:  #1295-D: Deprecated declaration ledOn - give arg types
+  void ledOn();
+gpio.h(36): warning:  #1295-D: Deprecated declaration ledOff - give arg types
+  void ledOff();
+gpio.h(37): warning:  #1295-D: Deprecated declaration toggleLed - give arg types
+  void toggleLed();
+gpio.h(39): warning:  #1295-D: Deprecated declaration readButton1 - give arg types
+  uint32_t readButton1();
+gpio.h(40): warning:  #1295-D: Deprecated declaration readButton2 - give arg types
+  uint32_t readButton2();
+gpio.h(41): warning:  #1295-D: Deprecated declaration readButton3 - give arg types
+  uint32_t readButton3();
+gpio.h(42): warning:  #1295-D: Deprecated declaration readButtonStart - give arg types
+  uint32_t readButtonStart();
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=2716 RO-data=268 RW-data=48 ZI-data=1632  
+".\Objects\UV_box.axf" - 0 Error(s), 40 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM::CMSIS:CORE:5.1.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil::Device:Startup:1.0.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
